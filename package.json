@@ -4,7 +4,8 @@
   "description": "portfolio for jp kubala",
   "main": "index.js",
   "scripts": {
-    "test": "hello"
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
   },
   "repository": {
     "type": "git",
