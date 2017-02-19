@@ -73,9 +73,10 @@
 /*!**********************************!*\
   !*** ./src/client/app/index.jsx ***!
   \**********************************/
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("console.log('Sup');\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9jbGllbnQvYXBwL2luZGV4LmpzeD9kYjhlIl0sInNvdXJjZXNDb250ZW50IjpbImNvbnNvbGUubG9nKCdTdXAnKTtcblxuXG5cbi8vLy8vLy8vLy8vLy8vLy8vL1xuLy8gV0VCUEFDSyBGT09URVJcbi8vIC4vc3JjL2NsaWVudC9hcHAvaW5kZXguanN4XG4vLyBtb2R1bGUgaWQgPSAwXG4vLyBtb2R1bGUgY2h1bmtzID0gMCJdLCJtYXBwaW5ncyI6IkFBQUE7Iiwic291cmNlUm9vdCI6IiJ9");
+"use strict";
+eval("\n\nconsole.log('Sup');//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9zcmMvY2xpZW50L2FwcC9pbmRleC5qc3g/Y2NhMyJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zb2xlLmxvZygnU3VwJyk7XG5cblxuXG4vLyBXRUJQQUNLIEZPT1RFUiAvL1xuLy8gc3JjL2NsaWVudC9hcHAvaW5kZXguanN4Il0sIm1hcHBpbmdzIjoiOztBQUFBIiwic291cmNlUm9vdCI6IiJ9");
 
 /***/ })
 /******/ ]);
