@@ -2,7 +2,8 @@ import React from 'react';
 import {render} from 'react-dom';
 import AwesomeComponent from './AwesomeComponent.jsx';
 
-require("!style-loader!css-loader!less-loader!./main.less");
+var lessLoader = require("!style-loader!css-loader!less-loader!./main.less");
+var FontAwesome = require('react-fontawesome');
 
 
 class App extends React.Component {
@@ -11,6 +12,7 @@ class App extends React.Component {
       <div>
         <h1>JP Kubala</h1>
         <p>Adventurer</p>
+        <FontAwesome name='bath' />
       </div>
     );
   }
