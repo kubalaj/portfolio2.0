@@ -14,7 +14,6 @@ class App extends React.Component {
     return (
       <div>
         <MenuComponent />
-        <CardComponent />
       </div>
     );
   }

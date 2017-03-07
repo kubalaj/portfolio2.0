@@ -2,20 +2,16 @@
 body {
   color: @color-font;
   margin: 1em;
+  font-family: @font-sub;
+  color: @color-font;
 
   h1 {
-    color: @color-font;
-    font-family: @font-header;
+    font-family: @font-main;
   }
-  h2 {
-
-  }
-  h3 {
-
-  }
-  p {
-    color: @color-font;
-    font-family: @font-paragraph;
+  nav {
+    a {
+      margin: 0 .5em;
+    }
   }
 
 }
@@ -25,5 +21,5 @@ body {
 @color-background:;
 @color-font: black;
 
-@font-header: 'Source Code Pro', monospace;
-@font-paragraph: 'Roboto Slab', serif;
+@font-main: 'Source Code Pro', monospace;
+@font-sub: 'Roboto Slab', serif;

@@ -17,7 +17,12 @@ class MenuComponent extends React.Component {
     return (
         <div>
           <h1>JP Kubala</h1>
-          <p>Adventurer</p>
+          <nav>
+            <a>Photos</a>
+            <a>Video</a>
+            <a>Tech</a>
+            <a>Contact</a>
+          </nav>
         </div>
     );
   }
