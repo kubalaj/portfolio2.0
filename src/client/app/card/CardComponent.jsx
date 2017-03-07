@@ -1,5 +1,7 @@
 import React from 'react';
 
+let lessLoader = require("!style-loader!css-loader!less-loader!./card.less");
+
 class CardComponent extends React.Component {
 
   // constructor(props) {

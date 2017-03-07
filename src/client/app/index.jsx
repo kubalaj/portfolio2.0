@@ -1,6 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
-import CardComponent from './CardComponent.jsx';
+import CardComponent from './card/CardComponent.jsx';
 import MenuComponent from './menu/MenuComponent.jsx';
 
 
