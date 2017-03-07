@@ -1,5 +1,7 @@
 import React from 'react';
 
+let lessLoader = require("!style-loader!css-loader!less-loader!./menu.less");
+
 class MenuComponent extends React.Component {
 
   // constructor(props) {
@@ -15,7 +17,7 @@ class MenuComponent extends React.Component {
   //
   render() {
     return (
-        <div>
+        <div className="menu">
           <h1>JP Kubala</h1>
           <nav>
             <a>Photos</a>

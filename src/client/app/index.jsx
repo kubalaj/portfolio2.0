@@ -1,7 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
 import CardComponent from './CardComponent.jsx';
-import MenuComponent from './MenuComponent.jsx';
+import MenuComponent from './menu/MenuComponent.jsx';
 
 
 let lessLoader = require("!style-loader!css-loader!less-loader!./main.less");
