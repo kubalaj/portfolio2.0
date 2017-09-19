@@ -17,9 +17,20 @@ class CardComponent extends React.Component {
   //
   render() {
     return (
-      <div>
-        <div><button>Like</button></div>
-      </div>
+			<div className="grid">
+				<div className="grid__item" data-size="1280x1280">
+					<a href="img/original/7.jpg" className="img-wrap"><img src="img/thumbs/7.jpg" alt="img07" />
+						<div className="description description--grid">
+							<h3>Silent Killer</h3>
+							<p>Cows’ milk protein may be the single most significant chemical carcinogen to which humans are exposed. <em>&mdash; T. Colin Campbell</em></p>
+							<div className="details">
+								<ul>
+								</ul>
+							</div>
+						</div>
+					</a>
+        </div>
+			</div>
     );
   }
 
